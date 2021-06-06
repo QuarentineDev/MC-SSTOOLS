@@ -23,7 +23,7 @@ Tambien puede crear su propio ejecutable con la librería #pyinstaller
 
 ```
 
-"""
+
 __________________________
 |                        |
 |    By: QuarentineDev   |
@@ -47,4 +47,4 @@ S::::::SSSSSS:::::SS::::::SSSSSS:::::S
 S:::::::::::::::SS S:::::::::::::::SS
  SSSSSSSSSSSSSSS    SSSSSSSSSSSSSSS
 
-"""
+
