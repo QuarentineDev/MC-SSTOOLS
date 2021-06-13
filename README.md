@@ -11,12 +11,15 @@ Utilice la herramienta [pip](https://pip.pypa.io/en/stable/) que le ofrece pytho
 Puedes directamente descargar el codigo, o el ejecutable, que sea a tu comodidad, asegurate de descargar cada una de las librerias!
 
 ```
-Librerias aun no listadas, en desarrollo
+import tkinter
+import tkinter_custom_button (clase externa)
+import PIL
+import OS
 ```
 ## ¿Como usarlo?
 
 ```python
-Puede descargar el 'programa con el ejecutable EXE en la pagina oficial'.
+Puede descargar el 'programa con el ejecutable EXE en la pagina oficial o del enlace dado por el creador.'.
 
 Tambien puede crear su propio ejecutable con la librería #pyinstaller
 únicamente si no tiene un sistema operativo de windows.
