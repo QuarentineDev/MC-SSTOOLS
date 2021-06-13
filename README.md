@@ -23,28 +23,4 @@ Tambien puede crear su propio ejecutable con la librería #pyinstaller
 
 ```
 
-
-__________________________
-|                        |
-|    By: QuarentineDev   |
-|                        |
---------------------------
-
-   SSSSSSSSSSSSSSS    SSSSSSSSSSSSSSS
- SS:::::::::::::::S SS:::::::::::::::S
-S:::::SSSSSS::::::SS:::::SSSSSS::::::S
-S:::::S     SSSSSSSS:::::S     SSSSSSS
-S:::::S            S:::::S
-S:::::S            S:::::S
- S::::SSSS          S::::SSSS                      eeeee eeeee eeeee e     eeeee 
-  SS::::::SSSSS      SS::::::SSSSS                   8   8  88 8  88 8     8   "
-    SSS::::::::SS      SSS::::::::SS                 8e  8   8 8   8 8e    8eeee
-       SSSSSS::::S        SSSSSS::::S                88  8   8 8   8 88       88
-            S:::::S            S:::::S               88  8eee8 8eee8 88eee 8ee88
-            S:::::S            S:::::S
-SSSSSSS     S:::::SSSSSSSS     S:::::S
-S::::::SSSSSS:::::SS::::::SSSSSS:::::S
-S:::::::::::::::SS S:::::::::::::::SS
- SSSSSSSSSSSSSSS    SSSSSSSSSSSSSSS
-
-
+![Screenshot](screenshot_33.png)
