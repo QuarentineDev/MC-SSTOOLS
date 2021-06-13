@@ -57,7 +57,7 @@ ActivityWindowBtn.place(relx = 0.2, rely = 0.4, anchor = tk.CENTER)
 
 paperbinmwindow = Label(windows)
 paperbinmwindow.pack(pady = 10)
-paperbinmBtn = TkinterCustomButton(text = "Paperbin LM", corner_radius = 10, command = paperbin_last_modification)
+paperbinmBtn = TkinterCustomButton(text = "Paperbin LM", corner_radius = 10, command = paperbin_last_modification) #Paperbin LM = paperbin last modification
 paperbinmBtn.place(relx = 0.2, rely = 0.5, anchor = tk.CENTER)
 
 # > Windows >  Definitions
