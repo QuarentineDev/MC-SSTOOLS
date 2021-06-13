@@ -25,5 +25,5 @@ Tambien puede crear su propio ejecutable con la librería #pyinstaller
 únicamente si no tiene un sistema operativo de windows.
 
 ```
-
+# Vista previa
 ![Screenshot](Screenshot_33.png)
