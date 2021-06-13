@@ -23,4 +23,4 @@ Tambien puede crear su propio ejecutable con la librería #pyinstaller
 
 ```
 
-![Screenshot](screenshot_33.png)
+![Screenshot](Screenshot_33.png)
