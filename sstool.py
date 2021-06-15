@@ -31,14 +31,33 @@ from tkinter_custom_button import TkinterCustomButton
 from tkinter import *
 from PIL import ImageTk, Image
 import os
+import time
+from tkinter.filedialog import askopenfilename
+import os.path, time
+from winregistry import WinRegistry as Reg
+reg = Reg()
 
 # > Functions
 def ActivityViewWindow():
-  activityWindow = Toplevel(windows)
-  activityWindow.title('QuarentineDev SS TOOLS - Activity View')
+  path = "HKEY_CURRENT_USER\\SOFTWARE\Microsoft\\Windows NT\\CurrentVersion\\AppCompatFlags\\Compatibility Assistant\\Store"
+  readKey = reg.read_key(path) 
+  ActivitySubWindow = Toplevel(windows)
+  ActivitySubWindow.geometry("600x600")
+  text = Text(ActivitySubWindow, wrap=tk.WORD, foreground="White")
+  text.pack(expand=YES, fill=BOTH)
+  text.insert(tk.END, f"{readKey}")
+  scrollX = tk.Scrollbar(ActivitySubWindow, orient=tk.HORIZONTAL)
+  scrollX.config(command=text.xview)
+  text.configure(xscrollcommand=scrollX.set)
+  scrollX.pack(side=tk.BOTTOM, fill=tk.X)
 
-def paperbin_last_modification():
+def LastModification():
+  filename = askopenfilename()
+  print("Last modified: %s" % time.ctime(os.path.getmtime(filename)))
+
+def HelpWindow():
   pass
+
 
 # > Variables
 windows = tk.Tk()
@@ -57,7 +76,7 @@ ActivityWindowBtn.place(relx = 0.2, rely = 0.4, anchor = tk.CENTER)
 
 paperbinmwindow = Label(windows)
 paperbinmwindow.pack(pady = 10)
-paperbinmBtn = TkinterCustomButton(text = "Paperbin LM", corner_radius = 10, command = paperbin_last_modification) #Paperbin LM = paperbin last modification
+paperbinmBtn = TkinterCustomButton(text = "Paperbin LM", corner_radius = 10, command =                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   LastModification)
 paperbinmBtn.place(relx = 0.2, rely = 0.5, anchor = tk.CENTER)
 
 # > Windows >  Definitions
